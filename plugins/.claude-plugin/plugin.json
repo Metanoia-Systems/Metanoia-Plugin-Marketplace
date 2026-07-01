@@ -1,0 +1,5 @@
+{
+  "name": "dev-log-plugin",
+  "description": "Creates a continuous development and decision logging capability to your repo",
+  "version": "1.0.0"
+}
