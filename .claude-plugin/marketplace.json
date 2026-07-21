@@ -26,23 +26,6 @@
         "Snapshot capabilities"
       ],
       "enabled": true
-    },
-    {
-      "id": "quality-review-plugin",
-      "name": "Quality Review Plugin",
-      "description": "Adds a quality-review skill for quick code reviews",
-      "version": "1.0.0",
-      "path": "plugins/quality-review-plugin",
-      "owner": {
-        "name": "Metanoia Systems Inc.",
-        "email": "wesley@paribusgroup.io"
-      },
-      "keywords": ["review", "quality", "code-review", "assessment"],
-      "features": [
-        "Quick code review capabilities",
-        "Quality assessment tools"
-      ],
-      "enabled": true
     }
   ]
 }
