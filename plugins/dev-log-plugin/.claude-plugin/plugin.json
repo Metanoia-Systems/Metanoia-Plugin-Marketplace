@@ -1,5 +1,11 @@
 {
   "name": "dev-log-plugin",
   "description": "Creates a continuous development and decision logging capability to your repo",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "author": {
+    "name": "Metanoia Systems Inc.",
+    "email": "dev@metanoiasystems.org"
+  },
+  "keywords": ["logging", "development", "decisions", "roadmap", "tracking"],
+  "license": "MIT"
 }

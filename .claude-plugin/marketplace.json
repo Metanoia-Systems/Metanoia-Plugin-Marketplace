@@ -1,31 +1,21 @@
 {
-  "name": "Metanoia-Plugin-Marketplace",
+  "name": "metanoia-plugin-marketplace",
   "description": "A collection of independently installable Claude plugins for enhanced development workflows",
-  "version": "1.0.0",
   "owner": {
     "name": "Metanoia Systems Inc.",
-    "email": "wesley@paribusgroup.io"
+    "email": "dev@metanoiasystems.org"
   },
-  "repository": "https://github.com/Metanoia-Systems/Metanoia-Plugin-Marketplace",
   "plugins": [
     {
-      "id": "dev-log-plugin",
-      "name": "Dev Log Plugin",
+      "name": "dev-log-plugin",
+      "source": "./plugins/dev-log-plugin",
+      "displayName": "Dev Log Plugin",
       "description": "Creates a continuous development and decision logging capability to your repository",
-      "version": "1.0.0",
-      "path": "plugins/dev-log-plugin",
-      "owner": {
+      "author": {
         "name": "Metanoia Systems Inc.",
         "email": "dev@metanoiasystems.org"
       },
-      "keywords": ["logging", "development", "decisions", "roadmap", "tracking"],
-      "features": [
-        "Development logging",
-        "Decision tracking",
-        "Roadmap management",
-        "Snapshot capabilities"
-      ],
-      "enabled": true
+      "keywords": ["logging", "development", "decisions", "roadmap", "tracking"]
     }
   ]
 }
